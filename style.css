@@ -1,0 +1,98 @@
+
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Space Mono', monospace;
+*/
+
+body {
+  background-color: rgb(232, 249, 253);
+  font-family: 'Space Mono', monospace;
+  text-align: center;
+  display: block;
+  margin: 8px;
+
+}
+
+h1 {
+  color: rgb(33, 85, 205);
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  font-size: 70;
+}
+
+h2 {
+  color: rgb(10, 161, 221);
+  font-family: 'Playfair Display', serif;
+  font-size: 50;
+}
+p {
+  color: rgb(10, 161, 221);
+  font-family: 'Space Mono', monospace;
+  font-style: italic;
+}
+
+a:hover {
+  background-color: rgb(190, 190, 190);
+}
+
+ul > li > a {
+  font-size: 30px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  margin: 0px;
+}
+
+.cards {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+#profile_picture {
+  width: 100px;
+  border-radius: 50%;
+}
+
+#btn-black:hover {
+  background-color: blue;
+}
+
+#btn-black {
+  background-color: rgb(10, 161, 221);
+  border-radius: 5px;
+  padding: 15px 20px;
+  color: rgb(255, 255, 255);
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
